@@ -1,0 +1,908 @@
+2026-03-25 18:45:58 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 18:46:04 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/
+2026-03-25 18:46:04 INFO  pages.FlightSearchPage - Checking if search page is loaded
+2026-03-25 18:46:20 ERROR pages.FlightSearchPage - Search page not loaded
+2026-03-25 18:46:20 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 18:46:20 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Search page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:16) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 18:46:20 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 18:46:21 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 18:59:42 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 18:59:42 INFO  utils.DriverFactory - Initializing Chrome Driver (Headless)...
+2026-03-25 18:59:43 INFO  utils.DriverFactory - Chrome Driver initialized successfully (Headless)
+2026-03-25 18:59:45 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 18:59:45 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:00:05 ERROR pages.FlightSearchPage - Search page not loaded
+2026-03-25 19:00:05 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:00:05 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Search page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:16) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 19:00:05 INFO  utils.DriverFactory - Quitting driver...
+2026-03-25 19:00:06 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 19:00:06 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:06:24 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:06:24 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:06:26 INFO  utils.DriverFactory - Chrome Driver initialized successfully
+2026-03-25 19:06:31 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:06:32 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:06:32 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 19:06:32 INFO  pages.FlightSearchPage - Selecting FROM city: Delhi
+2026-03-25 19:06:34 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:06:36 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 19:06:37 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:06:37 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:06:37 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 19:06:38 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:06:39 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:06:59 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:06:59 ERROR tests.FlightBookingTest - Reason: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@aria-label,'30 Mar')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: /tmp/chrome-profile}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55520}, goog:processID: 15628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8bafe1e5460adc168b6ea7cc093760f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.18.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.18.1.jar:?]
+	at pages.FlightSearchPage.selectDepartureDate(FlightSearchPage.java:170) ~[classes/:?]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:25) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 19:06:59 INFO  utils.DriverFactory - Quitting driver...
+2026-03-25 19:07:00 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 19:07:01 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:14:12 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:14:12 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:14:15 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:23:33 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:23:33 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:23:35 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:27:47 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:27:47 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:27:50 INFO  utils.DriverFactory - Chrome Driver initialized successfully
+2026-03-25 19:27:51 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:27:51 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:27:55 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 19:27:55 INFO  pages.FlightSearchPage - Selecting FROM city: Delhi
+2026-03-25 19:27:56 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:27:58 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 19:27:59 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:27:59 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:27:59 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 19:28:00 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:28:00 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:28:01 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 19:28:01 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 19:28:01 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 19:28:22 ERROR pages.FlightResultsPage - Flight results page not loaded
+2026-03-25 19:28:22 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:28:22 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 19:28:22 INFO  utils.DriverFactory - Quitting driver...
+2026-03-25 19:28:23 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 19:28:23 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:30:04 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:30:04 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:30:06 INFO  utils.DriverFactory - Chrome Driver initialized successfully
+2026-03-25 19:30:07 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:30:09 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:30:13 INFO  pages.FlightSearchPage - Coachmark detected. Closing...
+2026-03-25 19:30:22 INFO  pages.FlightSearchPage - Login popup not present
+2026-03-25 19:30:22 INFO  pages.FlightSearchPage - Selecting FROM city: Delhi
+2026-03-25 19:30:24 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:30:24 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 19:30:26 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:30:26 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:30:26 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 19:30:27 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:30:27 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:30:27 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 19:30:28 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 19:30:28 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 19:30:48 ERROR pages.FlightResultsPage - Flight results page not loaded
+2026-03-25 19:30:48 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:30:48 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 19:30:48 INFO  utils.DriverFactory - Quitting driver...
+2026-03-25 19:30:49 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 19:30:50 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:32:06 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:32:06 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:32:09 INFO  utils.DriverFactory - Chrome Driver initialized successfully
+2026-03-25 19:32:15 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:32:16 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:32:17 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 19:32:17 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 19:32:17 INFO  pages.FlightSearchPage - Coachmark detected. Closing...
+2026-03-25 19:32:19 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:32:20 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 19:32:20 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:32:20 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 19:32:22 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:32:22 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:32:22 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 19:32:23 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 19:32:23 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 19:32:44 ERROR pages.FlightResultsPage - Flight results page not loaded
+2026-03-25 19:32:44 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:32:44 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 19:32:54 INFO  utils.DriverFactory - Quitting driver...
+2026-03-25 19:32:55 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 19:32:55 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:34:27 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:34:27 INFO  utils.DriverFactory - Initializing Chrome Driver...
+2026-03-25 19:34:32 INFO  utils.DriverFactory - Chrome Driver initialized successfully
+2026-03-25 19:34:36 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:34:36 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:34:38 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 19:34:38 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 19:34:38 INFO  pages.FlightSearchPage - Coachmark detected. Closing...
+2026-03-25 19:34:51 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:41:59 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:42:04 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:42:04 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:42:07 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 19:42:07 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 19:42:09 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:42:09 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 19:42:10 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:42:10 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 19:42:11 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:42:11 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:42:11 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 19:42:11 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 19:42:11 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 19:42:16 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:42:16 ERROR tests.FlightBookingTest - Reason: 
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.154)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bacbd40f4b74a95d3e15fc86b85f9cba, findElement {using=xpath, value=//div[contains(@class,'listingCard')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\shikh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62781}, goog:processID: 11148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62781/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bacbd40f4b74a95d3e15fc86b85f9cba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.18.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.18.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.18.1.jar:?]
+	at pages.FlightResultsPage.isPageLoaded(FlightResultsPage.java:30) ~[classes/:?]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 19:42:16 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 19:49:02 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 19:49:07 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 19:49:07 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 19:49:09 INFO  pages.FlightSearchPage - Coachmark detected. Closing...
+2026-03-25 19:49:30 INFO  pages.FlightSearchPage - Coachmark not present
+2026-03-25 19:49:30 INFO  pages.FlightSearchPage - Login popup not present
+2026-03-25 19:49:30 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 19:49:30 INFO  pages.FlightSearchPage - Coachmark detected. Closing...
+2026-03-25 19:49:31 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 19:49:31 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 19:49:31 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:49:31 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 19:49:32 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 19:49:33 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 19:49:33 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 19:49:33 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 19:49:33 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 19:49:53 ERROR pages.FlightResultsPage - Flight results page not loaded
+2026-03-25 19:49:53 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 19:49:53 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-03-25 19:49:54 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 19:49:54 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:09:40 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 20:09:45 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:09:45 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:09:46 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:09:46 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:09:48 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 20:09:48 ERROR tests.FlightBookingTest - Reason: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.154)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87613ac7b98b7e96302482b59e548e92, clickElement {id=f.445DDCBCB3A5CC8B5DEF5BB44ADA4469.d.00D7D6B186686E845CF31E9306DFDB0F.e.252}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\shikh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55599}, goog:processID: 12588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55599/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (87613ac7b98b7e96302482b59e548e92)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'New Delhi, India')]]
+Session ID: 87613ac7b98b7e96302482b59e548e92
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.18.1.jar:?]
+	at pages.FlightSearchPage.selectFromCity(FlightSearchPage.java:133) ~[classes/:?]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:21) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-03-25 20:09:49 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:09:49 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:09:58 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 20:10:04 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:10:05 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:10:08 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:10:08 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:10:08 INFO  pages.FlightSearchPage - Coachmark detected. Closing...
+2026-03-25 20:10:09 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:10:09 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:10:10 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:10:10 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 20:10:11 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 20:10:11 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:10:11 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 20:10:12 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 20:10:12 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 20:10:32 ERROR pages.FlightResultsPage - Flight results page not loaded
+2026-03-25 20:10:32 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillConfirmation
+2026-03-25 20:10:32 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillConfirmation(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-03-25 20:10:32 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:10:33 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:19:27 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillConfirmation ==========
+2026-03-25 20:19:32 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:19:32 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:19:33 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:19:33 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:19:35 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 20:19:54 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:19:55 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:19:55 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:19:55 INFO  pages.FlightSearchPage - Selecting date: 30 Mar
+2026-03-25 20:19:56 WARN  pages.FlightSearchPage - Click intercepted, using JS click
+2026-03-25 20:19:56 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:19:56 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 20:19:56 INFO  pages.FlightSearchPage - Clicked on Search
+2026-03-25 20:19:56 INFO  pages.FlightResultsPage - Waiting for flight results page to load
+2026-03-25 20:20:32 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:20:36 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/
+2026-03-25 20:20:42 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:20:42 INFO  pages.FlightSearchPage - No loader present
+2026-03-25 20:20:43 INFO  pages.FlightSearchPage - Waiting for visibility of element: [!!!jdk.proxy2.$Proxy26@37647ecf=>org.openqa.selenium.NoSuchSessionException:invalid session id
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aba806d8cd139e446198437fce6542b2, findElement {using=id, value=fromCity}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\shikh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56933}, goog:processID: 21716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56933/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aba806d8cd139e446198437fce6542b2!!!]
+2026-03-25 20:20:43 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillTravellerPage
+2026-03-25 20:20:43 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Flight Search page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillTravellerPage(FlightBookingTest.java:16) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 20:20:44 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:22:37 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:22:43 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:22:51 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:22:51 INFO  pages.FlightSearchPage - Loader disappeared
+2026-03-25 20:22:51 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> id: fromCity]
+2026-03-25 20:22:51 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //span[@data-cy='closeModal']]
+2026-03-25 20:22:51 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:22:57 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:23:03 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:23:03 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> id: fromCity]
+2026-03-25 20:23:03 INFO  pages.FlightSearchPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@placeholder='From']'
+2026-03-25 20:23:04 INFO  pages.FlightSearchPage - Typed 'New Delhi, India' into [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //input[@placeholder='From']]
+2026-03-25 20:23:04 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'New Delhi, India')]]
+2026-03-25 20:23:07 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:23:08 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> id: toCity]
+2026-03-25 20:23:08 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:23:08 INFO  pages.FlightSearchPage - Typed 'Mumbai' into [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:23:08 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'Mumbai')]]
+2026-03-25 20:23:11 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //a[text()='Search']]
+2026-03-25 20:23:18 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //label[@for='departure']]
+2026-03-25 20:23:18 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //label[@for='departure']]
+2026-03-25 20:23:18 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:23:18 INFO  pages.FlightSearchPage - Selecting date: 30-Mar-2026
+2026-03-25 20:23:19 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //label[@for='departure']]
+2026-03-25 20:23:19 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (d7b6a203746e3c9aaa62307aaddab236)] -> xpath: //label[@for='departure']]
+2026-03-25 20:23:19 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:23:20 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillTravellerPage
+2026-03-25 20:23:20 ERROR tests.FlightBookingTest - Reason: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@aria-label,'30 Mar 2026')]"}
+  (Session info: chrome=146.0.7680.154)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7b6a203746e3c9aaa62307aaddab236, findElement {value=//div[contains(@aria-label,'30 Mar 2026')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\shikh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52172}, goog:processID: 21580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52172/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7b6a203746e3c9aaa62307aaddab236
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.18.1.jar:?]
+	at pages.FlightSearchPage.selectDepartureDate(FlightSearchPage.java:128) ~[classes/:?]
+	at tests.FlightBookingTest.bookFlightTillTravellerPage(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 20:23:20 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:23:20 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:24:15 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:24:20 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:24:26 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:24:26 INFO  pages.FlightSearchPage - Loader disappeared
+2026-03-25 20:24:26 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> id: fromCity]
+2026-03-25 20:24:27 INFO  pages.FlightSearchPage - Overlay/coachmark detected, closing...
+2026-03-25 20:24:47 INFO  pages.FlightSearchPage - No overlay present
+2026-03-25 20:24:47 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //span[@data-cy='closeModal']]
+2026-03-25 20:24:47 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:24:53 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:24:59 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:24:59 INFO  pages.FlightSearchPage - Overlay/coachmark detected, closing...
+2026-03-25 20:25:00 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> id: fromCity]
+2026-03-25 20:25:00 INFO  pages.FlightSearchPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@placeholder='From']'
+2026-03-25 20:25:00 INFO  pages.FlightSearchPage - Typed 'New Delhi, India' into [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //input[@placeholder='From']]
+2026-03-25 20:25:00 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'New Delhi, India')]]
+2026-03-25 20:25:03 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:25:04 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> id: toCity]
+2026-03-25 20:25:04 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:25:04 INFO  pages.FlightSearchPage - Typed 'Mumbai' into [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:25:04 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'Mumbai')]]
+2026-03-25 20:25:07 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //a[text()='Search']]
+2026-03-25 20:25:14 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //label[@for='departure']]
+2026-03-25 20:25:14 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //label[@for='departure']]
+2026-03-25 20:25:14 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:25:14 INFO  pages.FlightSearchPage - Selecting date: 30-Mar-2026
+2026-03-25 20:25:15 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //label[@for='departure']]
+2026-03-25 20:25:15 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (384c56a8fbb1b0dbff147d73b853cc3c)] -> xpath: //label[@for='departure']]
+2026-03-25 20:25:15 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:25:16 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillTravellerPage
+2026-03-25 20:25:16 ERROR tests.FlightBookingTest - Reason: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@aria-label,'30 Mar 2026')]"}
+  (Session info: chrome=146.0.7680.154)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [384c56a8fbb1b0dbff147d73b853cc3c, findElement {value=//div[contains(@aria-label,'30 Mar 2026')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\shikh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63545}, goog:processID: 18296, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63545/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 384c56a8fbb1b0dbff147d73b853cc3c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350) ~[selenium-remote-driver-4.18.1.jar:?]
+	at pages.FlightSearchPage.selectDepartureDate(FlightSearchPage.java:128) ~[classes/:?]
+	at tests.FlightBookingTest.bookFlightTillTravellerPage(FlightBookingTest.java:32) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1134) [testng-7.9.0.jar:7.9.0]
+	at org.testng.TestNG.run(TestNG.java:1101) [testng-7.9.0.jar:7.9.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-03-25 20:25:16 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:25:17 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:26:09 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:26:13 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:26:20 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:26:20 INFO  pages.FlightSearchPage - Loader disappeared
+2026-03-25 20:26:20 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> id: fromCity]
+2026-03-25 20:26:20 INFO  pages.FlightSearchPage - Overlay/coachmark detected, closing...
+2026-03-25 20:26:41 INFO  pages.FlightSearchPage - No overlay present
+2026-03-25 20:26:41 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //span[@data-cy='closeModal']]
+2026-03-25 20:26:41 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:26:47 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:26:53 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:26:53 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> id: fromCity]
+2026-03-25 20:26:53 INFO  pages.FlightSearchPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@placeholder='From']'
+2026-03-25 20:26:54 INFO  pages.FlightSearchPage - Typed 'New Delhi, India' into [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //input[@placeholder='From']]
+2026-03-25 20:26:54 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'New Delhi, India')]]
+2026-03-25 20:26:57 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:26:57 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> id: toCity]
+2026-03-25 20:26:57 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:26:57 INFO  pages.FlightSearchPage - Typed 'Mumbai' into [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:26:58 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'Mumbai')]]
+2026-03-25 20:27:01 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //a[text()='Search']]
+2026-03-25 20:27:08 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //label[@for='departure']]
+2026-03-25 20:27:08 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //label[@for='departure']]
+2026-03-25 20:27:08 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:27:08 INFO  pages.FlightSearchPage - Selecting date: 30-Mar-2026
+2026-03-25 20:27:09 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //label[@for='departure']]
+2026-03-25 20:27:09 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //label[@for='departure']]
+2026-03-25 20:27:09 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:27:09 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (83e608e5f00035159001993e715c8f64)] -> xpath: //div[contains(@aria-label,'Mar 30 2026')]]
+2026-03-25 20:27:09 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 20:27:15 INFO  pages.FlightSearchPage - Selected date: 30 Mar26
+2026-03-25 20:27:15 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillTravellerPage
+2026-03-25 20:27:15 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Selected date is incorrect expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillTravellerPage(FlightBookingTest.java:37) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 20:27:16 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:27:17 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:29:01 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:29:15 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:29:20 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:29:26 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:29:26 INFO  pages.FlightSearchPage - Loader disappeared
+2026-03-25 20:29:26 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> id: fromCity]
+2026-03-25 20:29:27 INFO  pages.FlightSearchPage - Overlay/coachmark detected, closing...
+2026-03-25 20:29:47 INFO  pages.FlightSearchPage - No overlay present
+2026-03-25 20:29:47 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //span[@data-cy='closeModal']]
+2026-03-25 20:29:47 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:29:53 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:29:59 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:29:59 INFO  pages.FlightSearchPage - Overlay/coachmark detected, closing...
+2026-03-25 20:30:00 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> id: fromCity]
+2026-03-25 20:30:00 INFO  pages.FlightSearchPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@placeholder='From']'
+2026-03-25 20:30:00 INFO  pages.FlightSearchPage - Typed 'New Delhi, India' into [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //input[@placeholder='From']]
+2026-03-25 20:30:01 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'New Delhi, India')]]
+2026-03-25 20:30:04 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:30:04 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> id: toCity]
+2026-03-25 20:30:04 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:30:04 INFO  pages.FlightSearchPage - Typed 'Mumbai' into [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:30:04 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'Mumbai')]]
+2026-03-25 20:30:07 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //a[text()='Search']]
+2026-03-25 20:30:14 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //label[@for='departure']]
+2026-03-25 20:30:14 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //label[@for='departure']]
+2026-03-25 20:30:14 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:30:14 INFO  pages.FlightSearchPage - Selecting date: 30-Mar-2026
+2026-03-25 20:30:15 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //label[@for='departure']]
+2026-03-25 20:30:15 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //label[@for='departure']]
+2026-03-25 20:30:15 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:30:16 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (4e1d64482b99ddf1175ac4074b7016dc)] -> xpath: //div[contains(@aria-label,'Mar 30 2026')]]
+2026-03-25 20:30:16 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 20:30:22 INFO  pages.FlightSearchPage - Clicked WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Search']'
+2026-03-25 20:30:22 INFO  pages.FlightSearchPage - Clicked on Search button
+2026-03-25 20:30:22 INFO  pages.FlightResultsPage - Validating Flight Results Page
+2026-03-25 20:30:47 ERROR pages.FlightResultsPage - Results page not loaded
+2026-03-25 20:30:47 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillTravellerPage
+2026-03-25 20:30:47 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Flight Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillTravellerPage(FlightBookingTest.java:42) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 20:30:48 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:30:48 INFO  tests.FlightBookingTest - Extent report flushed
+2026-03-25 20:38:16 INFO  tests.FlightBookingTest - ========== START TEST: bookFlightTillTravellerPage ==========
+2026-03-25 20:38:24 INFO  tests.FlightBookingTest - Navigated to URL: https://www.makemytrip.com/flights/
+2026-03-25 20:38:34 INFO  pages.FlightSearchPage - Validating Flight Search Page
+2026-03-25 20:38:34 INFO  pages.FlightSearchPage - Loader disappeared
+2026-03-25 20:38:34 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> id: fromCity]
+2026-03-25 20:38:34 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //span[@data-cy='closeModal']]
+2026-03-25 20:38:34 INFO  pages.FlightSearchPage - Login popup closed
+2026-03-25 20:38:40 INFO  pages.FlightSearchPage - AI Chatbox not present
+2026-03-25 20:38:46 INFO  pages.FlightSearchPage - Selecting FROM city: New Delhi, India
+2026-03-25 20:38:47 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> id: fromCity]
+2026-03-25 20:38:47 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> id: fromCity]
+2026-03-25 20:38:47 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //input[@placeholder='From']]
+2026-03-25 20:38:48 INFO  pages.FlightSearchPage - Typed 'New Delhi, India' into [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //input[@placeholder='From']]
+2026-03-25 20:38:48 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'New Delhi, India')]]
+2026-03-25 20:38:51 INFO  pages.FlightSearchPage - Selecting TO city: Mumbai
+2026-03-25 20:38:51 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> id: toCity]
+2026-03-25 20:38:51 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:38:51 INFO  pages.FlightSearchPage - Typed 'Mumbai' into [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //input[@placeholder='To']]
+2026-03-25 20:38:51 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //div[@class='revampedSuggestionHeader']//*[contains(text(),'Mumbai')]]
+2026-03-25 20:38:54 INFO  pages.FlightSearchPage - Waiting for visibility of element: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //a[text()='Search']]
+2026-03-25 20:39:02 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //label[@for='departure']]
+2026-03-25 20:39:02 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //label[@for='departure']]
+2026-03-25 20:39:02 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:39:02 INFO  pages.FlightSearchPage - Selecting date: 30-Mar-2026
+2026-03-25 20:39:03 WARN  pages.FlightSearchPage - Click intercepted, using JS click: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //label[@for='departure']]
+2026-03-25 20:39:03 INFO  pages.FlightSearchPage - JS click performed on [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //label[@for='departure']]
+2026-03-25 20:39:03 INFO  pages.FlightSearchPage - Calendar opened
+2026-03-25 20:39:03 INFO  pages.FlightSearchPage - Clicked WebElement: [[ChromeDriver: chrome on windows (96b4814bf5879e9b900632e109454e3d)] -> xpath: //div[contains(@aria-label,'Mar 30 2026')]]
+2026-03-25 20:39:03 INFO  pages.FlightSearchPage - Date selected successfully
+2026-03-25 20:39:09 INFO  pages.FlightSearchPage - Clicked WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Search']'
+2026-03-25 20:39:09 INFO  pages.FlightSearchPage - Clicked on Search button
+2026-03-25 20:39:09 INFO  pages.FlightResultsPage - Validating Flight Results Page
+2026-03-25 20:39:35 ERROR pages.FlightResultsPage - Results page not loaded
+2026-03-25 20:39:35 ERROR tests.FlightBookingTest - Test FAILED: bookFlightTillTravellerPage
+2026-03-25 20:39:35 ERROR tests.FlightBookingTest - Reason: 
+java.lang.AssertionError: Flight Results page not loaded expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.9.0.jar:7.9.0]
+	at tests.FlightBookingTest.bookFlightTillTravellerPage(FlightBookingTest.java:52) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.9.0.jar:7.9.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-03-25 20:39:35 INFO  tests.FlightBookingTest - ========== END TEST ==========
+
+2026-03-25 20:39:35 INFO  tests.FlightBookingTest - Extent report flushed
